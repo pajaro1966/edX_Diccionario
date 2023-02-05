@@ -1,0 +1,90 @@
+<style type="text/css">
+/* TABLA */
+
+body {vertical-align: middle;
+}
+
+hr {
+border-top: 2px solid #AE9984;
+}
+
+* {font-family: "Times New Roman" ;
+background-color: #f8f1e3; vertical-align: middle;
+}
+
+.utterance {		
+/* border: 1px solid black; 
+margin-top:1px; */ 
+}
+
+.token {
+/* border: 1px dashed grey;
+ background-color: #E0E0E0 ;*/
+font-size:30px;
+display: inline-block;
+text-align:center;
+padding-bottom: 10px;
+
+}
+
+.reference 
+{
+color:black; /*#3333ff#4d4dff#6666ff #8080ff;*/
+font-weight: normal;
+background-color: ; 
+padding: 4px;
+padding-bottom: 2px;
+}
+
+.reference, .hypothesis, .palab, .signi, .frag, .lema, .clase, .categ
+ {
+display: block;
+}
+
+.hypothesis {
+padding:2px;
+border: solid;
+border-width:1px;
+border-padding:4px; 
+border-radius: 2px;
+border-color: #AE9984 ; /* #D3D3D3*/
+
+font-family:"Arial Unicode"; /*"Courier New"*/
+font-stretch: ultra-condensed;
+font-weight: normal;
+background-color:  ; /* #D3D3D3*/
+color: #606060; /* #808080;*/}
+
+
+.hypothesis, .signi, .clase, .categ
+ {
+font-size: 75%;
+/* font-variant:small-caps; */ }
+
+
+.frag, .lema
+ {
+color:blue;
+font-size: 65%;
+padding-bottom:5px;
+}
+
+ .categ
+ {
+font-size: 45%;
+}
+
+
+/* .hypothesis:after, .hypothesis:before
+{content:"|";  }*/
+
+.punct  {
+padding-left: 0px;
+text-align:left;
+display: block;
+
+
+}
+
+Palab, Signi, Frag, Lema, Clase, Categ
+</style>
